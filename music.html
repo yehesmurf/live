@@ -1,0 +1,126 @@
+<script>
+    function play1() {
+        var audio = new Audio('Music/pew.mp3');
+        audio.play();
+    }
+
+    function play2() {
+        var audio = new Audio('Music/1-ya.mp3');
+        audio.play();
+    }
+
+    function play3() {
+        var audio = new Audio('Music/30.mp3');
+        audio.play();
+    }
+
+    function play4() {
+        var audio = new Audio('Music/299.mp3');
+        audio.play();
+    }
+
+    function play5() {
+        var audio = new Audio('Music/500.mp3');
+        audio.play();
+    }
+
+    function play6() {
+        var audio = new Audio('Music/gta.mp3');
+        audio.play();
+    }
+
+    function play7() {
+        var audio = new Audio('Music/rolling.mp3');
+        audio.play();
+    }
+    var clicks1 = 0;
+
+    function onClick1() {
+    clicks1 += 1;
+    document.getElementById("clicks1").innerHTML = clicks1;
+    };
+
+    var clicks2 = 0;
+
+    function onClick2() {
+    clicks2 += 1;
+    document.getElementById("clicks2").innerHTML = clicks2;
+    };
+
+    var clicks3 = 0;
+
+    function onClick3() {
+    clicks3 += 1;
+    document.getElementById("clicks3").innerHTML = clicks3;
+    };
+
+    var clicks4 = 0;
+
+    function onClick4() {
+    clicks4 += 1;
+    document.getElementById("clicks4").innerHTML = clicks4;
+    };
+
+    var clicks5 = 0;
+
+    function onClick5() {
+    clicks5 += 1;
+    document.getElementById("clicks5").innerHTML = clicks5;
+    };
+
+    function submitPoll(id){
+      document.getElementById("votebutton").disabled = true;
+      setTimeout(function(){document.getElementById("votebutton").disabled = false;},800);
+    }
+
+    function submitPoll2(id){
+      document.getElementById("votebutton2").disabled = true;
+      setTimeout(function(){document.getElementById("votebutton2").disabled = false;},1000);
+    }
+    
+</script>
+<h1>GYROSQUARE</h1>
+<!-- <button onclick="play1(),submitPoll2()">TAP TAP</button> -->
+<!-- <button onclick="play2(),onClick1(),submitPoll()" id="votebutton">1 koin - YAAAA : <b id="clicks1">0</b></button> -->
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<button onclick="play3(),onClick2()">30 koin - DANCE : <b id="clicks2">0</b></button>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<button onclick="play4(),onClick3()">299 koin - HORIZONTAL : <b id="clicks3">0</b></button>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<button onclick="play5(),onClick4()">500 koin - GYROSQUARE <b id="clicks4">0</b></button>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<br>
+==================================================
+</br>
+<button onclick="play6()">TEKNIS</button>
+<button onclick="play7()">ROLLING</button>
+<h1>Copy disini : @hezkyxyz</h1>
