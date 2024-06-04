@@ -33,6 +33,18 @@
         var audio = new Audio('Music/rolling.mp3');
         audio.play();
     }
+
+    function play8() {
+        var audio = new Audio('Music/comedy.mp3');
+        audio.play();
+        audio.loop=true;
+    }
+
+    function play9() {
+        var audio = new Audio('Music/bully.mp3');
+        audio.play();
+        audio.loop=true;
+    }
     var clicks1 = 0;
 
     function onClick1() {
@@ -125,8 +137,13 @@
 <br>
 ==================================================
 </br>
+<button onclick="play7()">ROLLING</button>
 <br>
 ==================================================
 </br>
-<button onclick="play7()">ROLLING</button>
+<button onclick="play8()">BACKSOUND 1</button>
+<br>
+==================================================
+</br>
+<button onclick="play9()">BACKSOUND 2</button>
 <h1>Copy disini : @hezkyxyz</h1>
